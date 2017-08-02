@@ -12,7 +12,7 @@ def group_text(msg):
 	dude = bot.List('buddy','菜鸟天堂')
 	content = msg['Text']
 	group = msg['Nickname']
-	if '' in group:
+	if '1708 GRE B班' in group:
 		print(content,file = f)
 		print(content)
 		print(msg)
